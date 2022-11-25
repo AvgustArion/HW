@@ -9,13 +9,11 @@ Console.WriteLine("Введите число: ");
 string NStr = Console.ReadLine();
 int N = Convert.ToInt32(NStr);
 
-int i = Convert.ToInt32(i);
-int i = 0;
-
-int ing = 2;
-if ( i => N )
+for ( int i = 2; i <= N; i++ )
 {
-    Console.WriteLine(i);
-} else {
-    i = i + ing;
-}
+    if (i % 2 == 0)
+    {
+        Console.WriteLine(i);
+    }
+    
+} 
