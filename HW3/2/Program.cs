@@ -22,7 +22,7 @@ int GetNumber(string message)
         }
         else 
         {
-            Console.WriteLine("Ввели не корректное число");
+            Console.WriteLine("Ввели не число!");
         }
     }
 
